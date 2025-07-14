@@ -19,8 +19,8 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [https://github.com/aszxqaz/fm-rock-paper-scissors](https://github.com/aszxqaz/fm-rock-paper-scissors)
-- Live Site URL: [https://aszxqaz.github.io/fm-rock-paper-scissors](https://aszxqaz.github.io/fm-rock-paper-scissors)
+- Solution URL: [https://github.com/aszxqaz/fm-meet-landing-page](https://github.com/aszxqaz/fm-meet-landing-page)
+- Live Site URL: [https://aszxqaz.github.io/fm-meet-landing-page](https://aszxqaz.github.io/fm-meet-landing-page)
 
 ## My process
 
