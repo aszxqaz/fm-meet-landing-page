@@ -20,12 +20,12 @@ header {
   margin-inline: auto;
   margin-bottom: 4rem;
 
-  @media (min-width: 768px) {
+  @media (min-width: 48rem) {
     margin-top: 27.4375rem;
     margin-bottom: 7.5rem;
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: 90rem) {
     margin-top: 5.4375rem;
   }
 }
@@ -34,7 +34,7 @@ header {
 .hero__text {
   margin-bottom: 1.5rem;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 90rem) {
     margin-bottom: 2rem;
   }
 }
@@ -45,7 +45,7 @@ header {
   align-items: center;
   gap: 1rem;
 
-  @media (min-width: 768px) {
+  @media (min-width: 48rem) {
     flex-direction: row;
   }
 }
