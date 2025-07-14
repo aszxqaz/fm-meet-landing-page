@@ -131,7 +131,7 @@ header {
   display: grid;
   align-items: center;
   gap: 1.5rem;
-  color: white;
+  color: var(--color-white);
   text-align: center;
   max-width: 30rem;
   margin: auto;
@@ -149,7 +149,7 @@ header {
   }
 
   > .heading {
-    color: white;
+    color: var(--color-white);
   }
 }
 

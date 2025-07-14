@@ -6,6 +6,7 @@
 
 body {
   background-image: url("../assets/images/tablet/image-hero.png");
+  background-color: var(--color-white);
   background-position: center top 140px;
   background-size: 433px 160px;
   background-repeat: no-repeat;

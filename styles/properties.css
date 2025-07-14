@@ -8,6 +8,7 @@
   --color-slate-900: hsl(240, 21%, 20%);
   --color-slate-600: hsl(240, 10%, 57%);
   --color-slate-300: hsl(240, 18%, 85%);
+  --color-white: hsl(0, 0%, 98%);
 
   --color-primary: var(--color-cyan-600);
   --color-primary-light: var(--color-cyan-500);
