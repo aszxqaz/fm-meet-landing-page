@@ -1,0 +1,35 @@
+@import "./reset.css";
+@import "./properties.css";
+@import "./typography.css";
+@import "./components.css";
+@import "./sections.css";
+
+body {
+  background-image: url("../assets/images/tablet/image-hero.png");
+  background-position: center top 140px;
+  background-size: 433px 160px;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-size: initial;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-image: url("../assets/images/desktop/image-hero-left.png"),
+      url("../assets/images/desktop/image-hero-right.png");
+    background-position: left -26px top 172px, right -26px top 229px;
+  }
+}
+
+.page-layout {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.container {
+  padding-inline: 2rem;
+}

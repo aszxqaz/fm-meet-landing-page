@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("../assets/fonts/RedHatDisplay/RedHatDisplay-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("../assets/fonts/RedHatDisplay/RedHatDisplay-Black.ttf");
+  font-weight: 900;
+}
+
+body {
+  font-family: "Red Hat Display";
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  color: rgb(135, 135, 157);
+
+  @media (min-width: 90rem) {
+    font-size: 1.125rem;
+  }
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-neutral-700);
+}
+
+.slug {
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  line-height: 1;
+
+  @media (min-width: 48rem) {
+    font-size: 0.875rem;
+  }
+
+  @media (min-width: 90rem) {
+    font-size: 1rem;
+  }
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.1;
+  color: hsl(240, 21%, 20%);
+
+  @media (min-width: 48rem) {
+    font-size: 2.25rem;
+  }
+
+  @media (min-width: 90rem) {
+    font-size: 2.5rem;
+  }
+}
+
+.heading--xl {
+  font-size: 2.5rem;
+
+  @media (min-width: 768px) {
+    font-size: 3rem;
+  }
+
+  @media (min-width: 1440px) {
+    font-size: 4rem;
+    line-height: 1;
+  }
+}
