@@ -96,6 +96,10 @@ header {
   padding-block: 4rem;
   padding-inline: 2rem;
   background-color: color-mix(in srgb, var(--color-primary) 90%, transparent);
+
+  @media (min-width: 90rem) {
+    padding-block: 7rem;
+  }
 }
 
 .footer__counter {
@@ -114,11 +118,11 @@ header {
   background-repeat: no-repeat;
   opacity: 0.95;
 
-  @media (min-width: 768px) {
+  @media (min-width: 48rem) {
     background-image: url("../assets/images/tablet/image-footer.jpg");
   }
 
-  @media (min-width: 1440) {
+  @media (min-width: 90rem) {
     background-image: url("../assets/images/desktop/image-footer.jpg");
   }
 }
@@ -132,11 +136,11 @@ header {
   max-width: 30rem;
   margin: auto;
 
-  @media (min-width: 768px) {
+  @media (min-width: 48rem) {
     max-width: 31.5rem;
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: 90rem) {
     grid-template-columns: 1fr 1fr max-content;
     align-items: flex-start;
     text-align: initial;
@@ -149,6 +153,6 @@ header {
   }
 }
 
-.footer-grid__button {
+.footer__button {
   justify-self: center;
 }

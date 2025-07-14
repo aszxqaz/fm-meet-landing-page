@@ -71,9 +71,11 @@
     grid-template-columns: initial;
     grid-auto-flow: column;
     max-width: 42.5rem;
+    gap: 1.5rem;
   }
 
   @media (min-width: 90rem) {
     max-width: 70rem;
+    gap: 2rem;
   }
 }
